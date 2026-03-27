@@ -1,28 +1,53 @@
-# Student Performance Analysis & Prediction
+# 🎓 Student Performance Prediction
 
-This project includes data analysis and machine learning on student performance dataset.
+## 📌 Project Overview
+This project predicts student math scores using machine learning based on factors like gender, lunch type, and test preparation.
 
-## 📊 Data Analysis
-- Explored dataset using Pandas
-- Analyzed performance trends (gender, test preparation)
-- Visualized insights using Matplotlib
+---
 
-## 🤖 Machine Learning
-- Built Linear Regression model to predict student scores
-- Performed data preprocessing using one-hot encoding
-- Split dataset into training and testing sets
-- Evaluated model using Mean Absolute Error
-
-## 🛠 Tech Stack
+## ⚙️ Tech Stack
 - Python
-- Pandas
-- Matplotlib
+- Pandas, NumPy
 - Scikit-learn
-- ## Results
-- Used Random Forest Regressor
-- Mean Absolute Error: 4.6
-- Model predicts student scores with good accuracy
+- Streamlit
 
-## Insights
-- Test preparation improves performance
-- Some features strongly impact scores (seen in heatmap)
+---
+
+## 🔍 Workflow
+1. Data Cleaning & Preprocessing  
+2. Exploratory Data Analysis (EDA)  
+3. Model Training (Random Forest Regressor)  
+4. Model Evaluation using Mean Absolute Error  
+5. Deployment using Streamlit  
+
+---
+
+## 📊 Results
+- Mean Absolute Error: **~4.6 marks**
+- Model predicts student performance with good accuracy
+
+---
+
+## 💡 Key Insights
+- Students who completed test preparation performed better  
+- Certain features strongly impact scores (visualized using heatmap)
+
+---
+
+## 🌐 Streamlit App
+An interactive app where users can input details and get predicted scores.
+
+---
+
+## 📁 Files
+- `analysis.ipynb` – Data analysis & visualization  
+- `ml_model.ipynb` – Model building  
+- `app.py` – Streamlit web app  
+- `StudentsPerformance.csv` – Dataset  
+
+---
+
+## 🚀 Future Improvements
+- Add more input features  
+- Improve model accuracy  
+- Deploy app online  
