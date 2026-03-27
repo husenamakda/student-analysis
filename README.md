@@ -18,3 +18,11 @@ This project includes data analysis and machine learning on student performance 
 - Pandas
 - Matplotlib
 - Scikit-learn
+- ## Results
+- Used Random Forest Regressor
+- Mean Absolute Error: 4.6
+- Model predicts student scores with good accuracy
+
+## Insights
+- Test preparation improves performance
+- Some features strongly impact scores (seen in heatmap)
