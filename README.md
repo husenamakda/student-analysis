@@ -36,7 +36,8 @@ This project predicts student math scores using machine learning based on factor
 
 ## 🌐 Streamlit App
 An interactive app where users can input details and get predicted scores.
-
+## 📸 App Preview
+![App Screenshot](stuana.png)
 ---
 
 ## 📁 Files
